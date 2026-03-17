@@ -19,6 +19,7 @@ def modulo(a, b):
         raise ValueError("Cannot modulo by zero")
     return a % b
 
+
 if __name__ == "__main__":
     print("Simple Calculator")
     print(f"5 + 3 = {add(5, 3)}")
