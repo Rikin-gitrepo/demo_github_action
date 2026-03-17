@@ -14,6 +14,11 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
+def modulo(a, b):
+    if b == 0:
+        raise ValueError("Cannot modulo by zero")
+    return a % b
+
 if __name__ == "__main__":
     print("Simple Calculator")
     print(f"5 + 3 = {add(5, 3)}")

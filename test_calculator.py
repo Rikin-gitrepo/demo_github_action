@@ -17,3 +17,13 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(10, 0)
+
+def test_modulo():
+    assert modulo(10, 3) == 1
+
+def modulo(arg1, arg2):
+    raise NotImplementedError
+
+def test_modulo_by_zero():
+    with pytest.raises(ValueError):
+        modulo(10, 0)
